@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina</title>
     <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
@@ -19,103 +18,65 @@
     
     <h3><strong>Pociones de Minecraft</strong></h3>
     <h5><strong>(Alquimia)</strong></h5>
+    <div class="card">
+      <div class="card-body">
+        La alquimia (Brewing en la versión original del juego) es la elaboración de las diferentes pociones que se pueden obtener en Minecraft. A pesar de que a través de la alquimia se pueden obtener una gran variedad de pociones con efectos diversos, en Minecraft hay muchos más efectos aparte de los que las pociones proporcionan.
 
-    <p>Las pociones son brebajes que, dependiendo de la poción, generan o no un tipo de efecto, con un tiempo limitado</p>
+      </div>
+    </div>
 
-    <h5><strong>Como crear pociones en minecraft</strong></h5>
-  
-    <p>El primer paso es construir una Destilería, y para ello necesitas Roca x3 y una Vara de Blaze. Puedes conseguir innumerables rocas por todo el mundo, mientras que para la Vara de Blaze debes derrotar al enemigo del mismo nombre (esa especie de araña amarilla que aparece aleatoriamente en cualquier parte del escenario)</p>
-    <img src="Imagenes/estanteria pociones crafteo.png" alt="" height="300">
+    <h5><strong>Utilizacion</strong></h5>
+    <p>A través de un soporte para pociones, podremos acceder a una interfaz que posee cinco espacios donde se colocan frascos de agua, los ingredientes y polvo de blaze como combustible. Los tres primeros espacios son para colocar las pociones, y pueden ser frascos de agua o pociones ya elaboradas. En el cuarto espacio se debe colocar el ingrediente de la poción. Si es válido, empezará a burbujear la barra de la izquierda y la flecha de la derecha se extenderá hacia abajo. El proceso tarda un poco más que los procesos de un horno.
+    </p>
+    <div class="card" style="width: 18rem;">
+      <img src="Imagenes/GUI pociones.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">La GUI (Interfaz) de un soporte para pociones donde se elabora la alquimia.</p>
+      </div>
+    </div>
+
     <br></br>
+    <h5><strong>Equipamiento de alquimia</strong></h5>
+    <img class="img-pociones" src="Imagenes/equipamiento.png" alt="" height="400">
 
-    <h5><strong>Ingredientes base</strong></h5>
+    <br></br>
+    <h3><strong>Ingredientes</strong></h3>
+    <h5><strong>Ingredientes principales</strong></h5>
+    <img class="img-pociones" src="Imagenes/ingbase.png" alt="" height="300">
 
-    <p>Los ingredientes base son el punto de partida de todas las pociones. La verruga del Nether es el ingrediente primario que se añade en los frascos de agua en esta fase, ya que hace falta para hacer la mayoría de pociones.</p>
+    <h5><strong>Ingredientes secundarios</strong></h5>
+    <img class="img-pociones" src="Imagenes/ingsecu.png" alt="" height="500">
 
-    <ul class="list-group list-group-horizontal w-100">
-      <li class="list-group-item flex-fill text-center">Nombre</li>
-      <li class="list-group-item flex-fill text-center">Efecto</li>
-    </ul>
-    <ul class="list-group list-group-horizontal w-100">
-      <li class="list-group-item flex-fill">Verruga del Nether</li>
-      <li class="list-group-item flex-fill">Poción rara (Sin efecto)</li>
-    </ul>
-    <ul class="list-group list-group-horizontal w-100">
-      <li class="list-group-item flex-fill">Polvo de piedra luminosa</li>
-      <li class="list-group-item flex-fill">Poción densa (Sin efecto)</li>
-    </ul>
-    <ul class="list-group list-group-horizontal w-100">
-      <li class="list-group-item flex-fill">Polvo de redstone</li>
-      <li class="list-group-item flex-fill">Poción vulgar (Sin efecto)</li>
-    </ul>
-    <ul class="list-group list-group-horizontal w-100">
-      <li class="list-group-item flex-fill">Ojo de araña fermentado</li>
-      <li class="list-group-item flex-fill">Poción de debilidad (1:30)</li>
-    </ul>
-    
+    <h3><strong>Modificadores</strong></h3>
 
-
-    
-    <p>Se generan de varias formas, dependiendo del nivel de luz y entorno, y suelen aparecer tras la generación de chunks. Nunca se generan en bloques transparentes, en piedra base o en bloques de menos de un bloque completo de altura (como losas en posición inferior, botones, camas, antorchas, palancas, vallas, puertas de vallas, etc.).</p>
-    
-    <h5><strong>Atributos</strong></h5>
-
-    <p>Las criaturas son entidades: están expuestas a la gravedad, y pueden ser dañadas de varios modos (al quemarse, caer, ahogarse, ataque por armas, etc.). Algunas criaturas son resistentes a ciertos peligros, como las criaturas del Nether, inmunes al fuego. También pueden montar vagonetas y otras pueden subir escaleras. Cuando mueren, se convierten en polvo y algunas sueltan objetos.</p>
-
-
-    <p>
-        <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-          Comportamiento
-        </button>
-      </p>
-      <div style="min-height: 120px;">
-        <div class="collapse-vertical collapse" id="collapseWidthExample" >
-          <div class="card card-body" style="width: 300px;">
-            Cada tipo de criatura en Minecraft tiene un sistema IA (Inteligencia artificial) con diferentes comportamientos y mecánicas.
+    <p class="d-inline-flex gap-1">
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Corrupcion del efecto</a>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Caracteristicas</button>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Cerrar</button>
+    </p>
+    <div class="row">
+      <div class="col">
+        <div class="collapse multi-collapse" id="multiCollapseExample1">
+          <div class="card card-body">
+            El ojo de araña fermentado cambiará el efecto base de la poción, normalmente invirtiéndolo o produciendo un efecto negativo.
           </div>
         </div>
       </div>
-
-    <h5><strong>Mobs mas comunes</strong></h5>
-
-    <div class="d-flex flex-row">
-    <div class="card" style="width: 18rem;">
-        <img src="Imagenes/creeper.jpg" class="card-img-top" alt="..." >
-        <div class="card-body">
-          <h5 class="card-title"><strong>Creeper</strong></h5>
-          <p class="card-text">Criatura hostil común que se acerca sigilosamente al jugador y explota.</p>
-          <a href="https://www.youtube.com/watch?v=wAMZ6KpMGQI&ab_channel=ZarcortGame" class="btn btn-primary">El mejor rap</a>
+      <div class="col">
+        <div class="collapse multi-collapse" id="multiCollapseExample2">
+          <div class="card card-body">
+            <ul>
+              <li>Una poción corrompida normalmente hace lo contrario que la poción original.</li>
+              <li>La poción de invisibilidad está considerada la versión "corrupta" de la poción de visión nocturna. </li>
+              <li>En vez de ver en condiciones de luz máxima, te harás invisible.</li>
+              
+            </ul>
+          </div>
         </div>
       </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="Imagenes/zombie.jpg" class="card-img-top" alt="..." >
-        <div class="card-body">
-          <h5 class="card-title"><strong>Zombie</strong></h5>
-          <p class="card-text">Mob hostil comunes que atacan a jugadores, aldeanos y huevos de tortuga.</p>
-          <a href="https://www.youtube.com/watch?v=2S-wuQ5p_RM&ab_channel=MultiSuperguy101" class="btn btn-primary">Su sonido</a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="Imagenes/esqueleto.jpg" class="card-img-top" alt="..." >
-        <div class="card-body">
-          <h5 class="card-title"><strong>Esqueleto</strong></h5>
-          <p class="card-text">es una criatura hostil común y no muerta que va equipada con un arco y flechas.</p>
-          <a href="https://www.youtube.com/watch?v=Dqm8pRYbgjI&pp=ygUSZXNxdWVsZXRvbWluZWNyYWZ0" class="btn btn-primary">Nuevo esqueleto</a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="Imagenes/araña.jpg" class="card-img-top" alt="..." >
-        <div class="card-body">
-          <h5 class="card-title"><strong>Araña</strong></h5>
-          <p class="card-text">Criatura hostil que durante el dia son pacificas y en la noche agresivas.</p>
-          <a href="https://www.youtube.com/watch?v=nae-4HF-zkI&ab_channel=Rhektran" class="btn btn-primary">Datos</a>
-        </div>
-      </div>
-
     </div>
+
+    <img class="img-pociones" src="Imagenes/modificadores.png" alt="" height="400">
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
