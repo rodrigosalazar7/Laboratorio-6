@@ -1,0 +1,26 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;    
+}
+
+.card{
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo{
+    transition: all .2s ease-in-out;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+a{
+    margin-right: 10px;
+}
+
